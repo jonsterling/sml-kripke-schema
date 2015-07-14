@@ -1,0 +1,17 @@
+Library
+  structure Operator
+  structure Term
+  structure Lcf
+  signature CREATING_SUBJECT
+  functor CreatingSubject
+  signature COMPUTATION
+  functor Computation
+is
+  $libs/cmlib/cmlib.cm
+  $libs/sml-abt/abt.cm
+  $libs/sml-lcf/lcf.cm
+  $libs/sml-spreads/spreads.cm
+  src/creating_subject.sml
+  src/operator.sml
+  src/term.sml
+  src/computation.sml

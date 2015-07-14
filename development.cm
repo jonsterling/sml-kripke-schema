@@ -1,0 +1,10 @@
+Library
+  structure Operator
+  structure Term
+  structure Lcf
+  signature CREATING_SUBJECT
+  functor CreatingSubject
+  signature COMPUTATION
+  functor Computation
+is
+  kripke-schema.cm (bind:(anchor:libs value:lib))
